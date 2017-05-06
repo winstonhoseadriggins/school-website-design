@@ -25,6 +25,9 @@ nav {
     -moz-transition: height 0.5s ease;
     -o-transition: height 0.5s ease;
 }
+nav.ui.top.fixed.secondary.menu.m-fluid.segment.shrink {
+    border-radius: 0 0 .28571429rem .28571429rem !important;
+}
 .shrink {
     height: 80px !important;
     -webkit-box-shadow: 0 0 4px 0 #000000 !important;
@@ -120,4 +123,12 @@ footer {
 }
 footer h1 {
     margin-bottom: 20px !important;
+}
+.footer-nav a:after {
+    content: "/";
+    margin-left: 15px;
+}
+.footer-nav a:last-child:after {
+    content: "";
+    margin-left: 15px;
 }
