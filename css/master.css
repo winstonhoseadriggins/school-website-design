@@ -121,3 +121,11 @@ footer {
 footer h1 {
     margin-bottom: 20px !important;
 }
+.footer-nav a:after {
+    content: "/";
+    margin-left: 15px;
+}
+.footer-nav a:last-child:after {
+    content: "";
+    margin-left: 15px;
+}
