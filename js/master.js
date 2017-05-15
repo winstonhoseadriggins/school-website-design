@@ -69,3 +69,19 @@ $('.ui.dropdown').dropdown({
         setAnimation ($elemsToanim, 'in');
     })
 })();
+
+
+//Image hover effect
+    var $image = $('.galary');
+
+    $image.on('mouseenter', function() {
+      $(this).find('img').animate({
+          opacity: '0.3'
+      });
+    })
+
+    $image.on('mouseleave', function() {
+      $(this).find('img').animate({
+          opacity: '1'
+      });
+    })
