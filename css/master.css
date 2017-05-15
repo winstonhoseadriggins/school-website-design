@@ -177,3 +177,9 @@ footer h1 {
     content: "";
     margin-left: 15px;
 }
+/*===========Galary==========
+====================================*/
+.galary p {
+  height: 100px;
+  margin-top: 10px;
+}
