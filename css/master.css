@@ -69,7 +69,7 @@ header {
   width: 100%;
   height: 400px;
 }
-.animated  {
+.caption .animated  {
   -webkit-animation-duration : 3s  ;
   animation-duration : 3s  ;
 
