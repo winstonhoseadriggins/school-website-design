@@ -53,17 +53,45 @@ div.right.menu > div.ui.dropdown.item:hover, .ui.secondary.menu a.item:hover,  n
 /*===========Header==========
 ====================================*/
 header {
-    padding-top: 50px;
+    padding-top: 100px;
 }
-#owl-demo .item{
-  margin: 3px;
-  position: relative;
+.caption{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    background: rgba(0,0,0,.3);
+    width: 50%;
+    display: block;
+    color: #fff;
+    padding: 15px;
 }
-
 .header-carousel .item img{
   width: 100%;
   height: 400px;
 }
+.animated  {
+  -webkit-animation-duration : 3s  ;
+  animation-duration : 3s  ;
+
+  -webkit-animation-delay : 500ms  ;
+  animation-delay : 500ms  ;
+}
+
+.animate-out {
+  -webkit-animation-delay : 0ms  ;
+  animation-delay : 0ms  ;
+}
+
+h4 {
+  font-size: 28px;
+
+}
+
+p {
+
+}
+
+
 
 /*===========Vision==========
 ====================================*/
