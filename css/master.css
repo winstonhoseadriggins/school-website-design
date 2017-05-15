@@ -50,6 +50,21 @@ div.right.menu > div.ui.dropdown.item:hover, .ui.secondary.menu a.item:hover,  n
 .ui.menu.fixed, .ui.menu.fixed .item:first-child, .ui.menu.fixed .item:last-child {
     border-radius: .28571429rem !important;
 }
+/*===========Header==========
+====================================*/
+header {
+    padding-top: 50px;
+}
+#owl-demo .item{
+  margin: 3px;
+  position: relative;
+}
+
+.header-carousel .item img{
+  width: 100%;
+  height: 400px;
+}
+
 /*===========Vision==========
 ====================================*/
 .vision {
